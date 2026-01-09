@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #contenedor-nuestros-proyectos{
+            display: flex;
+            flex-wrap:wrap ;
+            justify-content: space-around;
+            background-color: lightblue;
+        }
+        .item{
+            background-color: wheat;
+            color: black;
+            height: 100px;
+            margin-bottom: 10px;
+            box-sizing: border-box;
+        }
+        @media (min-width:0px){
+            .item{width: 100%;}}
+        @media (min-width:768px){
+            .item{width: 49%;}
+        }
+        @media (min-width:1200px){
+            .item{width: 32%;}
+        }
+    </style>
+</head>
+<body>
+    <section id="NuestrosProyectos">
+        <h1 class="titulo">
+            Nuestros Proyectos
+        </h1>
+        <div id="contenedor-nuestros-proyectos">
+            <dis class="item">1</dis>
+            <dis class="item">2</dis>
+            <dis class="item">3</dis>
+            <dis class="item">4</dis>
+            <dis class="item">5</dis>
+            <dis class="item">6</dis>
+        </div>
+    </section>
+</body>
+</html>
